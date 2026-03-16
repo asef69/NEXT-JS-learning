@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
+    <div className='absolute z-10 text-black w-full'>
     <nav className="container flex items-center justify-between mx-auto h-H14">
       <h1 className="text-lg font-bold">
         <Link href="/">Home</Link>
@@ -16,6 +17,7 @@ const Header = () => {
         </h1>
       </div>
     </nav>
+    </div>
   )
 }
 
